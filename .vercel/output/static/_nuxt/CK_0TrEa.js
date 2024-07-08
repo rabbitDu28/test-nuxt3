@@ -1,1 +1,0 @@
-import{s as a,Y as n,o,c,t as r,L as l}from"./CN4uZpBG.js";const f=a({__name:"hello",async setup(_){let e,t;const{message:s}=([e,t]=n(()=>$fetch("/api/hello")),e=await e,t(),e);return(p,i)=>(o(),c("div",null,r(l(s)),1))}});export{f as default};
