@@ -4,16 +4,16 @@
     <div class="mt-2">
       <UButton
         @click="
-          counter++;
-          counterRef++;
+          counter++
+          counterRef++
         "
         >+</UButton
       >
       -
       <UButton
         @click="
-          counter--;
-          counterRef--;
+          counter--
+          counterRef--
         "
         >-</UButton
       >
@@ -24,6 +24,7 @@
 </template>
 
 <script setup lang="ts">
+// 测试
 // 局部状态
 const counterRef = ref(Math.round(Math.random() * 1000))
 const counter = useState('counter', () => Math.round(Math.random() * 1000))
