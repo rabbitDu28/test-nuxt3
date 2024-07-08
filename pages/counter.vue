@@ -4,16 +4,16 @@
     <div class="mt-2">
       <UButton
         @click="
-          counter++
-          counterRef++
+          counter++;
+          counterRef++;
         "
         >+</UButton
       >
       -
       <UButton
         @click="
-          counter--
-          counterRef--
+          counter--;
+          counterRef--;
         "
         >-</UButton
       >
